@@ -1,14 +1,9 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { Palette, Sparkles, Droplets, Crown, Sun, Heart, Scissors } from "lucide-react"
 import { ServiceCard } from "./service-card"
 
-interface ServicesSectionProps {
-  onWhatsAppClick: () => void
-}
-
-export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
+export function ServicesSection() {
   const services = [
     {
       icon: Sparkles,

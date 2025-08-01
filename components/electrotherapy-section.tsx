@@ -1,14 +1,9 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { Zap, Radio, Droplets, Waves, Sparkles, Activity, Wifi } from "lucide-react"
 import { ServiceCard } from "./service-card"
 
-interface ElectrotherapySectionProps {
-  onWhatsAppClick: () => void
-}
-
-export function ElectrotherapySection({ onWhatsAppClick }: ElectrotherapySectionProps) {
+export function ElectrotherapySection() {
   const electrotherapyTreatments = [
     {
       icon: Zap,
