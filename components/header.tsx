@@ -7,7 +7,7 @@ export function Header() {
         <div className="flex justify-center">
           <div className="bg-gradient-to-r from-pink-100 to-rose-200 p-4 rounded-2xl shadow-lg">
             <Image
-              src="/logo-cosmetologist.png"
+              src="/img/logo.jpeg"
               alt="Cosmetologist Logo"
               width={240}
               height={120}
