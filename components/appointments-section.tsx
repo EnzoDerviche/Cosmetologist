@@ -120,7 +120,7 @@ export function AppointmentsSection({ onWhatsAppClick }: AppointmentsSectionProp
                 className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                Consultar Costos y Reservar
+                Consultar y Reservar Cita
               </Button>
 
               <div className="text-center">
@@ -135,30 +135,6 @@ export function AppointmentsSection({ onWhatsAppClick }: AppointmentsSectionProp
             </div>
           </CardContent>
         </Card>
-
-        {/* Horarios de atención */}
-        <div className="mt-12 text-center">
-          <Card className="bg-white/70 backdrop-blur-sm border-pink-200 max-w-md mx-auto">
-            <CardContent className="p-6">
-              <Clock className="w-8 h-8 text-pink-500 mx-auto mb-4" />
-              <h4 className="text-lg font-bold text-gray-800 mb-4">Horarios de Atención</h4>
-              <div className="space-y-2 text-sm text-gray-600">
-                <div className="flex justify-between">
-                  <span className="font-medium">Martes a Viernes:</span>
-                  <span>9:00 - 18:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Sábados:</span>
-                  <span>9:00 - 15:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="font-medium">Domingos:</span>
-                  <span className="text-red-500">Cerrado</span>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
       </div>
     </section>
   )

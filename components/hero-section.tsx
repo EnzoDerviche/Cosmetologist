@@ -61,7 +61,7 @@ export function HeroSection({ onWhatsAppClick }: HeroSectionProps) {
           onClick={onWhatsAppClick}
           className="bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
         >
-          Consultar Costos y Reservar Cita
+          Consultar y Reservar Cita
         </Button>
       </div>
     </section>
