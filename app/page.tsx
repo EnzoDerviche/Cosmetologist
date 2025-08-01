@@ -21,8 +21,8 @@ export default function CosmetologistLanding() {
       <Navigation />
       <Header />
       <HeroSection onWhatsAppClick={openWhatsApp} />
-      <ServicesSection onWhatsAppClick={openWhatsApp} />
-      <ElectrotherapySection onWhatsAppClick={openWhatsApp} />
+      <ServicesSection/>
+      <ElectrotherapySection/>
       <AppointmentsSection onWhatsAppClick={openWhatsApp} />
       <ImageCarousel />
       <ContactSection onWhatsAppClick={openWhatsApp} />
