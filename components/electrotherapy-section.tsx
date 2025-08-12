@@ -11,23 +11,6 @@ interface ElectrotherapySectionProps {
 export function ElectrotherapySection({ onWhatsAppClick }: ElectrotherapySectionProps) {
   const electrotherapyTreatments = [
     {
-      icon: Zap,
-      title: "Dermapen",
-      price: "$50.000",
-      duration: "1h 15min",
-      description:
-        "Microagujas que estimulan la producción de colágeno, mejoran la textura de la piel y reducen cicatrices, líneas de expresión y poros dilatados.",
-    },
-    {
-      icon: Radio,
-      title: "Radiofrecuencia",
-      price: "$50.000",
-      duration: "1h 15min",
-      description:
-        "Tratamiento que estimula la producción de colágeno mediante calor controlado, reafirma la piel y reduce la flacidez facial.",
-      isPopular: true,
-    },
-    {
       icon: Droplets,
       title: "Electroporación",
       price: "$45.000",
@@ -58,14 +41,6 @@ export function ElectrotherapySection({ onWhatsAppClick }: ElectrotherapySection
       duration: "1h 15min",
       description:
         "Estimulación muscular que tonifica y reafirma los tejidos faciales, mejora la circulación y el tono de la piel.",
-    },
-    {
-      icon: Wifi,
-      title: "Altafrecuencia",
-      price: "$40.000",
-      duration: "1h 15min",
-      description:
-        "Tratamiento germicida y cicatrizante ideal para pieles con acné, reduce la inflamación y acelera la curación.",
     },
     {
       icon: Heart,
