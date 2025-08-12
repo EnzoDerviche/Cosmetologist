@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Zap, Radio, Droplets, Waves, Sparkles, Activity, Wifi, Heart } from "lucide-react"
+import { Zap, Droplets, Waves, Sparkles, Activity, Heart } from "lucide-react"
 import { ServiceCard } from "./service-card"
 
 interface ElectrotherapySectionProps {
