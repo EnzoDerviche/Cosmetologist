@@ -21,13 +21,13 @@ export function ProductsSection({ onWhatsAppClick }: ProductsSectionProps) {
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 bg-gradient-to-br from-pink-100 to-rose-200 flex items-center justify-center">
+            <div className="h-64 relative bg-gradient-to-br from-pink-100 to-rose-200 flex items-center justify-center">
               <Image
-                src="/img/higiene.jpeg?height=200&width=200"
+                src="/img/higiene.jpeg?height=400&width=400"
                 alt="Productos de skincare"
-                width={200}
-                height={200}
-                className="object-contain rounded-lg"
+                width={320}
+                height={240}
+                className="object-contain max-w-full max-h-full"
               />
             </div>
             <div className="p-6">
@@ -40,13 +40,13 @@ export function ProductsSection({ onWhatsAppClick }: ProductsSectionProps) {
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 bg-gradient-to-br from-pink-100 to-rose-200 flex items-center justify-center">
+            <div className="h-64 relative bg-gradient-to-br from-pink-100 to-rose-200 flex items-center justify-center">
               <Image
-                src="/img/serum.jpeg?height=200&width=200"
+                src="/img/serum.jpeg?height=400&width=400"
                 alt="Serums y tratamientos"
-                width={200}
-                height={200}
-                className="object-contain rounded-lg"
+                width={320}
+                height={240}
+                className="object-contain max-w-full max-h-full"
               />
             </div>
             <div className="p-6">
@@ -59,13 +59,13 @@ export function ProductsSection({ onWhatsAppClick }: ProductsSectionProps) {
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <div className="h-64 bg-gradient-to-br from-pink-100 to-rose-200 flex items-center justify-center">
+            <div className="h-64 relative bg-gradient-to-br from-pink-100 to-rose-200 flex items-center justify-center">
               <Image
-                src="/img/controlBrossage.jpeg?height=200&width=200"
+                src="/img/controlBrossage.jpeg?height=400&width=400"
                 alt="Espumas de limpieza"
-                width={200}
-                height={200}
-                className="object-contain rounded-lg"
+                width={320}
+                height={240}
+                className="object-contain max-w-full max-h-full"
               />
             </div>
             <div className="p-6">
