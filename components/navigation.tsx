@@ -50,6 +50,7 @@ export function Navigation() {
   const menuItems = [
     { label: "Inicio", sectionId: "inicio" },
     { label: "Tratamientos", sectionId: "tratamientos" },
+    { label: "Productos", sectionId: "productos" },
     { label: "Turnos", sectionId: "turnos" },
     { label: "Galería", sectionId: "galeria" },
     { label: "Contacto", sectionId: "contacto" },

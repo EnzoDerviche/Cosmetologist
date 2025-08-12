@@ -120,7 +120,7 @@ export function AppointmentsSection({ onWhatsAppClick }: AppointmentsSectionProp
                 className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                Consultar y Reservar Cita
+                Reservar Cita
               </Button>
 
               <div className="text-center">

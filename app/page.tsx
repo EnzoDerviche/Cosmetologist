@@ -10,6 +10,7 @@ import { ImageCarousel } from "@/components/image-carousel"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { FloatingSocial } from "@/components/floating-social"
+import { ProductsSection } from "@/components/products-section"
 
 export default function CosmetologistLanding() {
   const openWhatsApp = () => {
@@ -21,8 +22,9 @@ export default function CosmetologistLanding() {
       <Navigation />
       <Header />
       <HeroSection onWhatsAppClick={openWhatsApp} />
-      <ServicesSection/>
-      <ElectrotherapySection/>
+      <ServicesSection onWhatsAppClick={openWhatsApp} />
+      <ProductsSection onWhatsAppClick={openWhatsApp} />
+      <ElectrotherapySection onWhatsAppClick={openWhatsApp}/>
       <AppointmentsSection onWhatsAppClick={openWhatsApp} />
       <ImageCarousel />
       <ContactSection onWhatsAppClick={openWhatsApp} />

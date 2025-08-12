@@ -1,14 +1,19 @@
 "use client"
 
-import { Zap, Radio, Droplets, Waves, Sparkles, Activity, Wifi } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Zap, Radio, Droplets, Waves, Sparkles, Activity, Wifi, Heart } from "lucide-react"
 import { ServiceCard } from "./service-card"
 
-export function ElectrotherapySection() {
+interface ElectrotherapySectionProps {
+  onWhatsAppClick: () => void
+}
+
+export function ElectrotherapySection({ onWhatsAppClick }: ElectrotherapySectionProps) {
   const electrotherapyTreatments = [
     {
       icon: Zap,
       title: "Dermapen",
-      price: "",
+      price: "$50.000",
       duration: "1h 15min",
       description:
         "Microagujas que estimulan la producción de colágeno, mejoran la textura de la piel y reducen cicatrices, líneas de expresión y poros dilatados.",
@@ -16,7 +21,7 @@ export function ElectrotherapySection() {
     {
       icon: Radio,
       title: "Radiofrecuencia",
-      price: "",
+      price: "$50.000",
       duration: "1h 15min",
       description:
         "Tratamiento que estimula la producción de colágeno mediante calor controlado, reafirma la piel y reduce la flacidez facial.",
@@ -25,7 +30,7 @@ export function ElectrotherapySection() {
     {
       icon: Droplets,
       title: "Electroporación",
-      price: "",
+      price: "$45.000",
       duration: "1h 15min",
       description:
         "Introducción de principios activos sin agujas mediante impulsos eléctricos, maximiza la penetración de tratamientos.",
@@ -33,7 +38,7 @@ export function ElectrotherapySection() {
     {
       icon: Waves,
       title: "Espátula Ultrasónica",
-      price: "",
+      price: "$40.000",
       duration: "1h 15min",
       description:
         "Limpieza profunda y exfoliación suave mediante vibraciones ultrasónicas que renuevan la superficie de la piel.",
@@ -41,7 +46,7 @@ export function ElectrotherapySection() {
     {
       icon: Sparkles,
       title: "Microdermoabrasión",
-      price: "",
+      price: "$40.000",
       duration: "1h 15min",
       description:
         "Exfoliación mecánica que renueva las capas superficiales de la piel, mejora la textura y reduce imperfecciones.",
@@ -49,7 +54,7 @@ export function ElectrotherapySection() {
     {
       icon: Activity,
       title: "Electroestimulación",
-      price: "",
+      price: "$40.000",
       duration: "1h 15min",
       description:
         "Estimulación muscular que tonifica y reafirma los tejidos faciales, mejora la circulación y el tono de la piel.",
@@ -57,10 +62,18 @@ export function ElectrotherapySection() {
     {
       icon: Wifi,
       title: "Altafrecuencia",
-      price: "",
+      price: "$40.000",
       duration: "1h 15min",
       description:
         "Tratamiento germicida y cicatrizante ideal para pieles con acné, reduce la inflamación y acelera la curación.",
+    },
+    {
+      icon: Heart,
+      title: "Hyalu Lips",
+      price: "$45.000",
+      duration: "1h 15min",
+      description:
+        "Hidratación profunda labial con ácido hialurónico, devuelve volumen natural y suavidad a los labios.",
     },
   ]
 
@@ -84,6 +97,18 @@ export function ElectrotherapySection() {
           {electrotherapyTreatments.map((treatment, index) => (
             <ServiceCard key={index} {...treatment} />
           ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <p className="text-gray-600 mb-6">
+            ¿Necesitas más información sobre electroterapia? Contactanos para evaluar tu piel y conocer los costos
+          </p>
+          <Button
+            onClick={onWhatsAppClick}
+            className="bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+          >
+            Reservar Cita
+          </Button>
         </div>
       </div>
     </section>
