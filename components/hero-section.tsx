@@ -15,7 +15,7 @@ export function HeroSection({ onWhatsAppClick }: HeroSectionProps) {
         <div className="mb-8">
           <Sparkles className="w-12 h-12 text-pink-500 mx-auto mb-4" />
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
-            Bienvenida a{" "}
+            Bienvenidos a{" "}
             <span className="bg-gradient-to-r from-pink-500 to-rose-400 bg-clip-text text-transparent">
               Cosmetologist
             </span>
