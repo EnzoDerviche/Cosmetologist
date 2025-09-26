@@ -106,7 +106,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
       duration: "45min",
       description:
         "Limpieza profunda de la piel de la espalda, ideal para eliminar impurezas y prevenir brotes de acné en esta zona.",
-    },
+    }
   ]
 
   return (
