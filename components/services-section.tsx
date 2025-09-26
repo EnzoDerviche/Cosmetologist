@@ -13,7 +13,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Sparkles,
       title: "Higiene Facial",
-      price: "$40.000",
+      price: "$45.000",
       duration: "1h 15min",
       description:
         "Limpieza profunda de la piel con extracción de comedones, vapor ozono y mascarilla purificante. Ideal para mantener la piel saludable y radiante.",
@@ -21,7 +21,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Crown,
       title: "Higiene Facial Premium",
-      price: "$45.000",
+      price: "$50.000",
       duration: "1h 15min",
       description:
         "Versión premium de nuestra higiene facial con tratamientos adicionales y productos de alta gama para resultados superiores.",
@@ -30,7 +30,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Zap,
       title: "Dermapen",
-      price: "$50.000",
+      price: "$55.000",
       duration: "1h 15min",
       description:
         "Microagujas que estimulan la producción de colágeno, mejoran la textura de la piel y reducen cicatrices, líneas de expresión y poros dilatados.",
@@ -46,7 +46,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Scissors,
       title: "Dermaplaning",
-      price: "$50.000",
+      price: "$55.000",
       duration: "1h 15min",
       description:
         "Exfoliación física que elimina células muertas y vello facial, dejando la piel suave, luminosa y lista para absorber productos.",
@@ -54,7 +54,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Droplets,
       title: "Peelings",
-      price: "$45.000",
+      price: "$50.000",
       duration: "1h 15min",
       description:
         "Exfoliación controlada que renueva las capas superficiales de la piel, mejora manchas, textura y luminosidad facial.",
@@ -62,7 +62,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Heart,
       title: "Cosmiatra Capilar",
-      price: "$40.000",
+      price: "$45.000",
       duration: "1h 15min",
       description:
         "Tratamiento especializado para el cuero cabelludo y cabello, mejorando la salud capilar y estimulando el crecimiento.",
@@ -70,15 +70,15 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Radio,
       title: "Altafrecuencia",
-      price: "$40.000",
+      price: "$45.000",
       duration: "1h 15min",
       description:
         "Tratamiento germicida y cicatrizante ideal para pieles con acné, reduce la inflamación y acelera la curación.",
     },
     {
-      icon: Palette,
+      icon: Radio,
       title: "Radiofrecuencia",
-      price: "$50.000",
+      price: "$55.000",
       duration: "1h 15min",
       description:
         "Tratamiento que estimula la producción de colágeno mediante calor controlado, reafirma la piel y reduce la flacidez facial.",
@@ -86,7 +86,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Video,
       title: "Consulta Online",
-      price: "$15.000",
+      price: "$20.000",
       duration: "30min",
       description:
         "Consulta virtual personalizada para evaluar tu piel y recibir recomendaciones profesionales desde la comodidad de tu hogar.",
@@ -94,10 +94,18 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: FileText,
       title: "Consulta + Rutina Skincare",
-      price: "$20.000",
+      price: "$25.000",
       duration: "45min",
       description:
         "Consulta presencial completa con armado de rutina y protocolo de skincare personalizado según tu tipo de piel.",
+    },
+    {
+      icon: Droplets,
+      title: "Higiene de espalda",
+      price: "$25.000",
+      duration: "45min",
+      description:
+        "Limpieza profunda de la piel de la espalda, ideal para eliminar impurezas y prevenir brotes de acné en esta zona.",
     },
   ]
 
