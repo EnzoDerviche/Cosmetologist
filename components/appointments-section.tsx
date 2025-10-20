@@ -14,7 +14,7 @@ export function AppointmentsSection({ onWhatsAppClick }: AppointmentsSectionProp
       icon: Calendar,
       title: "Reserva de Consultas",
       items: [
-        "Se debe abonar una seña de $10.000 al momento de la reserva",
+        "Se debe abonar una seña de $15.000 al momento de la reserva",
         "Especificar el servicio deseado al momento de la reserva",
         "Proporcionar nombre completo y numero de contacto",
         "Enviar comprobante de la seña por Whatsapp",
