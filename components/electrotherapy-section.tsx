@@ -13,7 +13,7 @@ export function ElectrotherapySection({ onWhatsAppClick }: ElectrotherapySection
     {
       icon: Droplets,
       title: "Electroporación",
-      price: "$45.000",
+      price: "$50.000",
       duration: "1h 15min",
       description:
         "Introducción de principios activos sin agujas mediante impulsos eléctricos, maximiza la penetración de tratamientos.",
@@ -21,7 +21,7 @@ export function ElectrotherapySection({ onWhatsAppClick }: ElectrotherapySection
     {
       icon: Waves,
       title: "Espátula Ultrasónica",
-      price: "$40.000",
+      price: "$50.000",
       duration: "1h 15min",
       description:
         "Limpieza profunda y exfoliación suave mediante vibraciones ultrasónicas que renuevan la superficie de la piel.",
@@ -29,7 +29,7 @@ export function ElectrotherapySection({ onWhatsAppClick }: ElectrotherapySection
     {
       icon: Sparkles,
       title: "Microdermoabrasión",
-      price: "$40.000",
+      price: "$50.000",
       duration: "1h 15min",
       description:
         "Exfoliación mecánica que renueva las capas superficiales de la piel, mejora la textura y reduce imperfecciones.",
@@ -37,7 +37,7 @@ export function ElectrotherapySection({ onWhatsAppClick }: ElectrotherapySection
     {
       icon: Activity,
       title: "Electroestimulación",
-      price: "$40.000",
+      price: "$50.000",
       duration: "1h 15min",
       description:
         "Estimulación muscular que tonifica y reafirma los tejidos faciales, mejora la circulación y el tono de la piel.",
@@ -45,7 +45,7 @@ export function ElectrotherapySection({ onWhatsAppClick }: ElectrotherapySection
     {
       icon: Heart,
       title: "Hyalu Lips",
-      price: "$45.000",
+      price: "$50.000",
       duration: "1h 15min",
       description:
         "Hidratación profunda labial con ácido hialurónico, devuelve volumen natural y suavidad a los labios.",
