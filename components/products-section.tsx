@@ -23,7 +23,7 @@ export function ProductsSection({ onWhatsAppClick }: ProductsSectionProps) {
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 relative bg-gradient-to-br from-pink-100 to-rose-200 flex items-center justify-center">
               <Image
-                src="/img/higiene.jpeg?height=400&width=400"
+                src="/img/higiene.jpeg"
                 alt="Productos de skincare"
                 width={320}
                 height={240}
@@ -42,7 +42,7 @@ export function ProductsSection({ onWhatsAppClick }: ProductsSectionProps) {
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 relative bg-gradient-to-br from-pink-100 to-rose-200 flex items-center justify-center">
               <Image
-                src="/img/serum.jpeg?height=400&width=400"
+                src="/img/serum.jpeg"
                 alt="Serums y tratamientos"
                 width={320}
                 height={240}
@@ -61,7 +61,7 @@ export function ProductsSection({ onWhatsAppClick }: ProductsSectionProps) {
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             <div className="h-64 relative bg-gradient-to-br from-pink-100 to-rose-200 flex items-center justify-center">
               <Image
-                src="/img/controlBrossage.jpeg?height=400&width=400"
+                src="/img/controlBrossage.jpeg"
                 alt="Espumas de limpieza"
                 width={320}
                 height={240}
