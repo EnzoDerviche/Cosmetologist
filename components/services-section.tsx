@@ -11,14 +11,6 @@ interface ServicesSectionProps {
 export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
   const services = [
     {
-      icon: Sparkles,
-      title: "Higiene Facial",
-      price: "$45.000",
-      duration: "1h 15min",
-      description:
-        "Limpieza profunda de la piel con extracción de comedones, vapor ozono y mascarilla purificante. Ideal para mantener la piel saludable y radiante.",
-    },
-    {
       icon: Crown,
       title: "Higiene Facial Premium",
       price: "$55.000",
@@ -30,7 +22,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Zap,
       title: "Dermapen",
-      price: "$60.000",
+      price: "$65.000",
       duration: "1h 15min",
       description:
         "Microagujas que estimulan la producción de colágeno, mejoran la textura de la piel y reducen cicatrices, líneas de expresión y poros dilatados.",
