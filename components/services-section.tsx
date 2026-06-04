@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Palette, Sparkles, Droplets, Crown, Sun, Heart, Scissors, Zap, Radio, FileText, Video } from "lucide-react"
+import { Palette, Droplets, Crown, Sun, Heart, Scissors, Zap, Radio, FileText, Video } from "lucide-react"
 import { ServiceCard } from "./service-card"
 
 interface ServicesSectionProps {
@@ -30,7 +30,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Sun,
       title: "Dermapen con Exosomas",
-      price: "$70.000",
+      price: "$75.000",
       duration: "1h 15min",
       description:
         "Dermapen potenciado con exosomas para una regeneración celular avanzada y resultados superiores en rejuvenecimiento.",
@@ -38,7 +38,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Scissors,
       title: "Dermaplaning",
-      price: "$60.000",
+      price: "$65.000",
       duration: "1h 15min",
       description:
         "Exfoliación física que elimina células muertas y vello facial, dejando la piel suave, luminosa y lista para absorber productos.",
@@ -54,7 +54,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Heart,
       title: "Cosmiatra Capilar",
-      price: "$50.000",
+      price: "$55.000",
       duration: "1h 15min",
       description:
         "Tratamiento especializado para el cuero cabelludo y cabello, mejorando la salud capilar y estimulando el crecimiento.",
@@ -94,7 +94,7 @@ export function ServicesSection({ onWhatsAppClick }: ServicesSectionProps) {
     {
       icon: Droplets,
       title: "Higiene de espalda",
-      price: "$55.000",
+      price: "$60.000",
       duration: "45min",
       description:
         "Limpieza profunda de la piel de la espalda, ideal para eliminar impurezas y prevenir brotes de acné en esta zona.",

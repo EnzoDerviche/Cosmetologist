@@ -45,7 +45,7 @@ export function ElectrotherapySection({ onWhatsAppClick }: ElectrotherapySection
     {
       icon: Heart,
       title: "Hyalu Lips",
-      price: "$50.000",
+      price: "$75.000",
       duration: "1h 15min",
       description:
         "Hidratación profunda labial con ácido hialurónico, devuelve volumen natural y suavidad a los labios.",
